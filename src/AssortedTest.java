@@ -144,6 +144,7 @@ class AssortedTest {
     }
 
     @org.junit.jupiter.api.Test
+
     void uniqueNumber() {
         List<Integer> result = Assorted.uniqueNumber(1,10);
         List<Integer> result2 = Assorted.uniqueNumber(1,100);
